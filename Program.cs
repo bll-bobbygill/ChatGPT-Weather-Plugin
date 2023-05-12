@@ -89,7 +89,7 @@ app.MapGet("/weather", async (double latitude, double longitude) =>
 
 app.Run();
 
-
+public partial class Program { }
 internal class GetWeatherResponse
 {
     public double temperature { get; set; }
